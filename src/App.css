@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.header-img img{
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+}
+
+.footer-div {
+  position: bottom;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #363945;
+  color: white;
+  text-align: center;
+  line-height:100px;
+}
+.section-main {
+  float: left;
+  padding: 20px;
+  width: 72%;
+  background-color: #a8a989;
+  height: 1600px;
+}
+
+.section-nav {
+  float: right;
+  padding: 5px;
+  width: 24%;
+  background-color: #34568B;
+  height: 1630px;
+  line-height:20px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Fake image */
+.fakeimg img{
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  height:200px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
